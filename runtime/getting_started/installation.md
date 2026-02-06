@@ -86,10 +86,10 @@ vfox use --global deno
 1709 and up, due to requiring
 [IsWow64Process2](https://learn.microsoft.com/en-us/windows/win32/api/wow64apiset/nf-wow64apiset-iswow64process2).
 
-Using PowerShell (Windows):
+Using Command Prompt or Powershell (Windows):
 
 ```powershell
-irm https://deno.land/install.ps1 | iex
+powershell "irm https://deno.land/install.ps1 | iex"
 ```
 
 Using [npm](https://npmjs.com/package/deno):
